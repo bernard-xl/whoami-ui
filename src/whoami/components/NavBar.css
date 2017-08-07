@@ -1,0 +1,53 @@
+div.navbar {
+    width: 100%;
+    height: 4rem;
+    padding: 0 2rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.navbar a {
+    height: 100%;
+    line-height: 4rem;
+}
+
+div.navbar > div.logo {
+    margin-right: 3em;
+    font-size: 2.75rem;
+    font-weight: 300;
+    color: #3366CC;
+}
+
+div.navbar > div.logo > span {
+    color: #3399FF;
+}
+
+div.navbar a {
+    margin: 0 2rem;
+    font-size: 1.75rem;
+    font-weight: lighter;
+    color: #AAAAAA;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div.navbar a:hover {
+    color: #5A5A5A;
+    border-bottom: 4px solid #3366CC;
+}
+
+div.navbar a.active {
+    color: #5A5A5A;
+    border-bottom: 4px solid #3366CC;
+}
+
+div.navbar > div.user {
+    margin-left: auto;
+}
+
+div.navbar > div.user > span {
+    color: #AAAAAA;
+    margin-right: 1rem;
+}
